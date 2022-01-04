@@ -1,0 +1,59 @@
+body{ 
+
+    background: url("img/fundo-site.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+nav{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system ui,-apple-system, helvetica,arial, sans-serif;
+}
+
+ul{ list-style: none;
+
+    display: flex;
+
+    flex-direction: row;
+
+    
+
+}
+
+li{
+    margin: 0 45px;
+    color: rgb(0, 0, 0);
+}
+
+
+.field{ 
+    border-radius: 10px ;
+    
+    background-color:rgb(127, 46, 173)}
+    
+
+h3{
+    text-align: center;
+}
+
+
+
+
+.form1 {
+    /* Apenas para centralizar o form na página */
+  
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    color: white;
+    background-color: black;
+}
+
+
+

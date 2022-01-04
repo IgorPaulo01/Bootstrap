@@ -1,0 +1,85 @@
+
+
+nav{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system ui,-apple-system, helvetica,arial, sans-serif;
+    background-color: black;
+}
+
+ul{ list-style: none;
+
+    display: flex;
+
+    flex-direction: row;
+
+    
+
+}
+
+li{
+    margin: 0 45px;
+    color: rgb(0, 0, 0);
+}
+
+.field{ 
+    border-radius: 10px ;
+    
+    background-color:rgb(127, 46, 173)}
+
+    body{ 
+
+        background: url("img/fundo-site.jpg") no-repeat center center;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    p{
+        color: black;
+        
+    }
+
+    h4{
+        color: black; 
+        background-color: rgb(127, 46, 173);
+        text-align: center;
+        
+    }
+
+    img{
+        border-radius: 10px;
+        text-align: center
+        
+       
+        
+    }
+
+    .card-text{
+        color: black;
+    }
+
+    h2{ 
+        
+        color: white;
+        text-align: center;
+
+    }
+
+    .form1 {
+        /* Apenas para centralizar o form na página */
+        margin: 0 auto;
+        width: 400px;
+        /* Para ver as bordas do formulário */
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+        color: white;
+        background-color: black;
+    }
+    
+  
+
+    
